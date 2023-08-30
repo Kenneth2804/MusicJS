@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mp3 page</title>
+<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+
+<div class="container">
+	<h1>Reproductor de mp3</h1>
+	<div class="upload-form">
+		<label for="audioFile" class="file-label">Seleccionar archivo MP3</label>
+		<input type="file" id="audioFile" accept="audio/mp3">
+		<input type="text" id="categoryInput" placeholder="Categorias...">
+		<button id="uploadButton">Subir MP3</button>
+	</div>
+	<div class="categories" id="categories">
+		<button data-category="all" class="category-button active">Todas</button>
+	</div>
+	<div class="audio-list" id="audioList"></div>
+</div>
+<script src="app.js"></script>
+
+
+
+</body>
+</html>
